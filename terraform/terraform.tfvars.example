@@ -1,0 +1,6 @@
+aws_region    = "ap-south-1"       # Mumbai Region
+project_tag   = "EWB-VPC-Peering"
+student_name  = "YourName"         # Replace with your actual name
+key_pair_name = "ewb-lab"          # Name of your EC2 Key Pair created in AWS Console
+instance_type = "t3.micro"
+my_ip         = "0.0.0.0/0"        # Replace with your public IP /32 (e.g. "122.161.45.10/32")
