@@ -782,13 +782,13 @@ def main():
 
     # 1. Write the styled HTML
     html_content = build_report_html(student_name="Raunak", batch="AWS Associate Batch / Oct 2026")
-    html_file = os.path.join(report_dir, "YourName_EWB_VPC_Peering_Report.html")
+    html_file = os.path.join(report_dir, "Raunak_EWB_VPC_Peering_Report.html")
     with open(html_file, "w", encoding="utf-8") as f:
         f.write(html_content)
     print(f"[OK] Generated HTML template: {html_file}")
 
     # 2. Compile to PDF using Edge / Chrome headless
-    pdf_names = ["Raunak_EWB_VPC_Peering.pdf", "YourName_EWB_VPC_Peering.pdf"]
+    pdf_names = ["Raunak_EWB_VPC_Peering.pdf"]
     edge_paths = [
         r"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe",
         r"C:\Program Files\Google\Chrome\Application\chrome.exe"

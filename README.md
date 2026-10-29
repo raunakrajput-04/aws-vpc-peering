@@ -82,9 +82,9 @@ AWS Internship Project/
 │   └── setup_ssh_config.sh                    # Linux / macOS / WSL SSH setup
 │
 └── report/                                    # Internship Submission Deliverables (100 Marks)
-    ├── YourName_EWB_VPC_Peering_Report.md     # Full technical markdown report
-    ├── generate_html_report.py                # Compiles report into print-ready HTML
-    └── YourName_EWB_VPC_Peering_Report.html   # Standalone HTML report (Print to PDF)
+    ├── Raunak_EWB_VPC_Peering_Report.md       # Full technical markdown report
+    ├── generate_html_report.py                # Compiles report into print-ready HTML & PDF
+    └── Raunak_EWB_VPC_Peering_Report.html     # Standalone HTML report (Print to PDF)
 ```
 
 ---
@@ -164,11 +164,12 @@ Full architect-level answers are provided in [`docs/05_VIVA_AND_INTERVIEW_DEFENS
 
 ## 📄 Generating the Final PDF Submission Report
 
-To generate your final deliverable (`YourName_EWB_VPC_Peering.pdf`):
-1. Edit your name and IDs in [`report/YourName_EWB_VPC_Peering_Report.html`](file:///c:/Users/rauna/Downloads/ANTIGRAVITY/AWS%20Internship%20Project/report/YourName_EWB_VPC_Peering_Report.html) or run `py -3 report/generate_html_report.py`.
-2. Double-click to open [`YourName_EWB_VPC_Peering_Report.html`](file:///c:/Users/rauna/Downloads/ANTIGRAVITY/AWS%20Internship%20Project/report/YourName_EWB_VPC_Peering_Report.html) in your browser (Google Chrome or Microsoft Edge).
+Your final deliverable (`Raunak_EWB_VPC_Peering.pdf`) is already compiled and available in the root folder.
+If you ever want to recompile or update:
+1. Edit details in [`report/Raunak_EWB_VPC_Peering_Report.html`](file:///c:/Users/rauna/Downloads/ANTIGRAVITY/AWS%20Internship%20Project/report/Raunak_EWB_VPC_Peering_Report.html) or run `py -3 report/generate_html_report.py`.
+2. Double-click to open [`report/Raunak_EWB_VPC_Peering_Report.html`](file:///c:/Users/rauna/Downloads/ANTIGRAVITY/AWS%20Internship%20Project/report/Raunak_EWB_VPC_Peering_Report.html) in your browser.
 3. Press **Ctrl + P** (or click the floating **Print to PDF** button).
-4. Destination: **Save as PDF** > Margin: **Default** > Save as `YourName_EWB_VPC_Peering.pdf`.
+4. Destination: **Save as PDF** > Save as `Raunak_EWB_VPC_Peering.pdf`.
 
 ---
 
